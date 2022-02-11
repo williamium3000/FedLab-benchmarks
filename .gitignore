@@ -152,6 +152,8 @@ fedlab_benchmarks/datasets/cifar10/*
 !fedlab_benchmarks/datasets/cifar10/*.py
 !fedlab_benchmarks/datasets/cifar10/*.ipynb
 fedlab_benchmarks/datasets/*/data
+fedlab_benchmarks/datasets/*/*/data
+fedlab_benchmarks/datasets/*/*/pickle_data
 fedlab_benchmarks/datasets/*/meta
 fedlab_benchmarks/datasets/*/MNIST
 

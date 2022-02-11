@@ -14,4 +14,4 @@ cd ../utils
 
 bash preprocess.sh --name $NAME $@
 
-cd ../$NAME
+

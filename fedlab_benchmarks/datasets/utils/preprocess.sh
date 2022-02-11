@@ -253,3 +253,8 @@ if [ "$CONT_SCRIPT" = false ]; then
     echo "please delete the existing one. Otherwise, please remove the"
     echo "respective tag(s) from the preprocessing command."
 fi
+
+cd ../$NAME
+new_dir="${SAMPLE}_${IUSER}_${SFRAC}_${MINSAMPLES}_${TRAIN}_${TFRAC}_${SAMPLING_SEED}${SPLIT_SEED}"
+mkdir $new_dir
+cp -r data/ $new_dir/data
